@@ -1,458 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="stylesheet" href="">
 	<meta charset="UTF-8">
 	<title>我的第一个网页</title>
-	<style type/text>
-    *{
-			margin: 0;
-			padding: 0;
-			color: #FFF;
-			font-family:" Microsoft YaHei UI";
-		}
-		.head{
-			min-width:1200px;
-			width: 100%;
-			height:70px;
-			margin: 0 auto;
-			background: #07CBC9;
-			line-height: 50px;
-			 position: fixed;
-			 top: 0;
-			 z-index: 3;
-			}
-		.nav{
-			min-width:750px;
-			list-style: none;
-			float: right;
-			color: #fff;
-			position:relative;
-			margin-right: 70px;
-		}
-		.nav li{
-			
-			float: right;
-			list-style: none;
-			padding: 10px;
-		}
-		.nav li a{
-			text-decoration: none;
-			padding: 20px;
-		}
-
-		.nav li a:hover {
-			background-color: #000;
-		}
-
-		.logo{
-			margin-left: 70px;
-			float: left;
-			margin-top:11px;
-		}
-
-		.banner{
-			width:100%;
-			height: 800px; 
-			background-image:url(images\banner3.jpg);
-			position: relative;
-			/* background: black; */
-		}
-
-		.banner form{
-			text-align: center;
-			padding-top: 100px;
-			line-height: 40px;
-			position: relative; 
-			z-index:2;
-		}
-
-		.banner  input{
-			border: 1px #fff solid;
-			background:rgba(0,0,0,0);/*  文本框透明 */
-			width: 600px;
-			height: 40px;
-			margin: 10px;
-			padding: 5px;
-			
-		}
-
-		.banner input::-webkit-input-placeholder{
-			color:#FFF;
-		}
-    	/* .banner .sub{
-			border: 1px #fff solid;
-			background:rgba(0,0,0,0);文本框透明
-			width: 200px;
-			height: 50px;
-			margin: 10px;
-			padding: 5px;
-			position: relative; 
-			left:50%;
-			margin:-100px;
-		} */
-
-		.banner textarea::-webkit-input-placeholder{
-			color:#FFF;
-		}/* 提示文字颜色 */
-
-		.banner  textarea{
-			border: 1px #fff solid;
-			background:rgba(0,0,0,0);
-			width: 600px;
-			height: 160px;
-			margin: 10px;
-			padding: 5px;
-
-		}
-		
-		.banner img{
-			position:absolute;
-			top: 0 ;
-			left:0;
-			width:100%;
-			height:100%;
-		}
-
-		.ABOUT{
-			width: 100%;
-			height: 650px;
-			font color: #000;
-			position: relative;
-			/* background-color: #0ff; */
-		}
-		
-		.ABOUT h1{
-			border-bottom:2px solid #07CBC9;
-			position: relative;
-			/* background-color: blue; */
-			width: 120px;
-			margin-left: -60px;
-			height: 60px;
-			top: 20px;
-			left: 50%;
-			color: #000;
-			font-size: 35px;
-
-		}
-
-		.ABOUT .na{
-			/* background-color: red; */
-			width: 450px;
-			height: 115px;
-			position: relative;
-			top :20px;
-			left: 50%;
-			margin-left: -225px;
-			font-size:14px; 
-			text-align: center;
-		}
-
-		.ABOUT .nb{
-			/* background-color: green; */
-			width: 700px;
-			height: 435px;
-			position: relative;
-			top :5px;
-			left: 50%;
-			margin-left: -350px;
-		}
-
-		.ABOUT .nb .A70000{
-			/* background-color: green;  */
-			position: relative;
-			width: 200px;
-			height: 150px;
-			top:-755px;
-			left: 700px;
-			border:1px #07CBC9 solid;
-			line-height: 65px;
-			font-size: 25px;
-			font-style: blod;
-			text-align: center;
-			
-		}
-		
-		.ABOUT .nb .A70000 .a7{
-			border-bottom:2px solid #07CBC9;
-			font-size: 25px;
-			font-style: blod;
-			text-align: center;
-			color:#000;
-			padding-bottom:10px;
-		}
-		
-
-		.ABOUT .nb .A600{
-			/* background-color: red; */
-			position: relative;
-			width: 200px;
-			height: 150px;
-			top:-735px;
-			left: 700px;
-			border:1px #07CBC9 solid;
-			line-height: 75px;
-			font-size: 25px;
-			font-style: blod;
-			text-align: center;
-			
-		}
-
-		.ABOUT .nb .A600 .a6{
-			border-bottom:2px solid #07CBC9;
-			font-size: 25px;
-			font-style: blod;
-			text-align: center;
-			color:#000;
-			padding-bottom:10px;
-		}
-
-		.ABOUT .nb .pbb{
-			/* background-color: blue; */
-			position: relative;
-			width: 340px;
-			height:200px;
-			top:-400px;
-			left: -280px;
-			padding: 15px 10px;
-			background-color:rgba(255,255,255,0.2);
-			border:1px #000 solid;
-		}
-		.ABOUT .nb .pbb input{
-			width: 100px;
-			height: 40px;
-			background: black;
-		}
-
-
-		.ABOUT .nb .aab{
-			/* background-color: pink; */
-			position: relative;
-			width: 170px;
-			height:85px;
-			top:-430px;
-			left: -230px;
-			font-size: 30px;
-			font-style: bold;
-		}
-		
-		.ABOUTun{
-			min-width:1200px;
-			width:100%;
-			height:600px;
-			background:#000;
-		}
-
-		.ABOUTun img{
-			width:100%;
-			height:100%;
-		}
-
-		.ABOUTun .AB1{
-			width:25%;
-			height:300px;
-			background:#07CBC9;
-			float:left;
-		
-		}
-/* 		.ABOUTun .AB1 img{
-			width:100%;
-			height:100%;
-		} */
-
-
-		.ABOUTun .AB2{
-			width:25%;
-			height:300px;
-			background:#07CBC9;
-			float:left;
-			position:relative
-	
-		}
-		.ABOUTun .AB2 .jiao{
-			position:absolute;
-			top:100px;
-			left:0; 
-		}
-
-		.ABOUTun span{
-			position:relative;
-			top:40px;
-			left:40px;
-		}
-	
-
-		.ABOUTun .AB3{
-			width:25%;
-			height:300px;
-			background:#07CBC9;
-			float:left;
-		
-		}
-		/* .ABOUTun .AB3 img{
-			width:100%;
-			height:100%;
-		}*/
-		
-
-		
-		.ABOUTun .AB4{
-			width:25%;
-			height:300px;
-			background:#07CBC9;
-			float:left;
-		}
-		
-		.ABOUTun .AB5{
-			width:25%;
-			height:300px;
-			background:#07CBC9;
-			float:left;
-		}
-
-		.ABOUTun .AB6{
-			width:25%;
-			height:300px;
-			background:#07CBC9;
-			float:left;
-		}
-/* 		.ABOUTun .AB6 img{
-			width:100%;
-			height:100%;
-		} */
-
-		.ABOUTun .AB7{
-			width:25%;
-			height:300px;
-			background:#07CBC9;
-			float:left;
-		/* 	padding:40px; */
-		}
-
-
-		.ABOUTun .AB8{
-			width:25%;
-			height:300px;
-			background:#07CBC9;
-			float:left;
-		}
-
-/* 		.ABOUTun .AB8 img{
-			width:100%;
-			height:100%;
-		} */
-
-		.GALLERY h1{
-			border-bottom:2px solid #07CBC9;
-			position: relative;
-			/* background-color: blue; */
-			width: 120px;
-			margin-left: -60px;
-			height: 60px;
-			top: 20px;
-			left: 50%;
-			color: #000;
-			font-size: 35px;
-		}
-
-		.GALLERY .NA{
-			width: 450px;
-			height: 115px;
-			position: relative;
-			top :20px;
-			left: 50%;			
-			margin-left: -225px;
-			font-size:14px;
-			text-align: center;
-			color:#000;
-
-		}
-		.GALLERYun{
-			min-width:1200px;
-			margin:0 auto;
-			width:70%;
-			height:800px;
-			/* background:#033; */
-		}
-		.GALLERYun div{
-			width:28%;
-			height:340px;
-			float:left;
-			background:#000;
-			margin:20px;
-		}
-		.GALLERYun img{
-			width:100%;
-			height:280px;
-
-		}
-		.GALLERYun p{
-			text-indent:25px;
-		}
-		.footer{
-			width:100%;
-			height:100px;
-			background:#07CBC9;
-			text-align: center;
-			line-height:100px;
-		}
-		#ds{
-			width:300px;
-			height:340px;
-			position: fixed;
-			bottom:0;
-			right:0;
-		}
-		#ds img{
-			width:100%;
-			height:100%;
-			background:#f00;
-			 z-index: 5;
-		}
-    </style>	
+	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 	<div class="head">
 		<div class="logo"><img src="images\logo.png"></div>
-		<div class="nav"><ul>
-			<li><a href="#"> HOME</a></li>
-			<li><a href="#"> ABOUT</a></li>
-			<li><a href="#"> GALLERY</a></li>
-			<li><a href="#"> FACULTY</a></li>
-			<li><a href="#"> EVENTS</a></li>
-			<li><a href="#"> CONTACT</a></li>
-		</ul></div>
+			<div class="nav">
+				<ul>
+					<li><a href="#"> 导航栏1</a></li>
+					<li><a href="#"> 导航栏2</a></li>
+					<li><a href="#"> 导航栏3</a></li>
+					<li><a href="#"> 导航栏4</a></li>
+					<li><a href="#"> 导航栏5</a></li>
+					<li><a href="#"> 导航栏6</a></li>
+				</ul>
+		</div>
 	</div>
 		<div class="banner">
 			<form >
-				<dd><input type="text" name="name" size="80" placeholder="you Name" ></dd>
-				<dd><input type="text" name="phone" size="80" placeholder="you Phone"></dd>
-				<dd><input type="text" name="e-mail" size="80" placeholder="you Email"></dd>
-				<dd><textarea placeholder="Write Your Comment Here" rows="5" cols="60"></textarea></dd>
-				<dd class="sub"><input type="submit" name="SEND MESSAGE" value="SEND MESSAGE" ></dd>
+				<dd><input type="text" name="name" size="80" placeholder="愿意留下姓名吗？有缘人😘" ></dd>
+				<dd><input type="text" name="phone" size="80" placeholder="那再记个电话嘛😄"></dd>
+				<dd><input type="text" name="e-mail" size="80" placeholder="顺便问问你的邮箱😊"></dd>
+				<dd><textarea placeholder="你觉得梦，是什么？😏" rows="5" cols="60"></textarea></dd>
+				<dd class="sub"><input type="submit" name="SEND MESSAGE" value="加入梦书😜(现在只是一个进静态页面 提交暂时无法接受)" ></dd>
 			</form>
 			 <img src="images\banner3.jpg">
 		</div>
 		<div class="ABOUT">
-			<h1 > ABOUT</h1>
+			<h1 >什么是梦</h1>
 			
-			<div class="na" style="color: #000">
-			Lorem Ipsum is simply dummy text of the printing and typesetting <br>
-			industry.lorem Ipsum has been the industry`s standrd dummy <br>
-			text ever since the 1500s.
-			</div>
-
+			<div class="na">
+				梦，也有梦想的意思。古人相信，做梦总要有原因的，王符就曾说“夫奇异之梦，多有收而少无为者矣”认为做梦总有原因可寻。做梦的原因已知的有心理和生理两个方面的原因，但即使是在人类已知的这两方面，人类依然无法解释梦形成的机制原理。<br>
 			<div class="nb">
 				<img src="images\bb3.jpg" alt="">
-				<div class="aab" style="color: #000">&nbsp&nbsp A WORD ABOUT US </div>
+				<div class="aab">
+					有时感觉眼前的事情曾经梦到过？
+				</div>
 
 				<div class="pbb" style="color: #000">
-					 Praesentdignissim viverra est,esd <br>
-					 bibend um ligula congue non.Sed ac nisl <br>
-					 et felis gravida commodo?Suspendisses <br>
-					 eget ullamcorper ipsum.suspendisse <br>
-					 diam amet. <br>
-					 <br>
-					 <input type=button name="EXPLORE" value="EXPLORE">	
+					 既视感：
+					 既视现象，又称“既视感”、该词源自法语“Déjà vu”，也可以翻译成“幻觉记忆”，指没有经历过的事情或场景仿佛在某时某地经历过的似曾相识之感，也叫海马效应。<br>
+
+					 <input type=button name="EXPLORE" value="更多详情">	
 				</div>
 				<div class="A70000" style="color: #000"> 
 				<span class="a7"> 70000</span><br>
@@ -461,15 +54,13 @@
 				<span class="a6"> 600</span><br> 
 				faculty</div>
 			</div>
-
 		</div>
-
+	</div>
 <div class="ABOUTun">
-	<div class="AB1">
+	<div class="AB1 ab">
 		<img src="images\b1.jpg" alt="">
 	</div>
-
-	<div class="AB2"> 
+	<div class="AB2 ab"> 
 		<span>Praesentdignissim viverra est,esd <br>
 				bibend um ligula congue non.Sed ac nisl <br>
 				et felis gravida commodo?Suspendisses <br>
@@ -477,11 +68,11 @@
 				diam amet. <br></span>
 	</div>
 
-	<div class="AB3">
+	<div class="AB3 ab">
 		<img src="images\b2.jpg" alt="">
 	</div>
 
-	<div class="AB4"> 
+	<div class="AB4 ab"> 
 		<span>Praesentdignissim viverra est,esd <br>
 				bibend um ligula congue non.Sed ac nisl <br>
 				et felis gravida commodo?Suspendisses <br>
@@ -489,7 +80,7 @@
 				diam amet. <br></span>
 	</div>
 
-	<div class="AB5"> 
+	<div class="AB5 ab"> 
 		<span>Praesentdignissim viverra est,esd <br>
 				bibend um ligula congue non.Sed ac nisl <br>
 				et felis gravida commodo?Suspendisses <br>
@@ -497,19 +88,19 @@
 				diam amet. <br></span>
 	</div>
 
-	<div class="AB6">
+	<div class="AB6 ab">
 		<img src="images\b3.jpg" alt="">
 	</div>
 
-	<div class="AB7">
+	<div class="AB7 ab">
 		<span>Praesentdignissim viverra est,esd <br>
 				bibend um ligula congue non.Sed ac nisl <br>
 				et felis gravida commodo?Suspendisses <br>
 				eget ullamcorper ipsum.suspendisse <br>
 				diam amet. <br></span>
-	</div>
+</div>
 
-	<div class="AB8">
+	<div class="AB8 ab">
 		<img src="images\b4.jpg" alt="">
 	</div>
 </div>
@@ -522,32 +113,37 @@
 		text ever since the 1500s.
 		</div>
 	</div>
-	<div class=GALLERYun>
-	<div class=g1><img src="images\03-01.jpg" alt="">
+	<div class='GALLERYun'>
+	<div class='g1'><img src="images\03-01.jpg" alt="">
 		<P>SCIENCE LAB</P>
 	</div>
-	<div class=g2><img src="images\03-02.jpg" alt="">
+	<div class='g2'><img src="images\03-02.jpg" alt="">
 		<P>INDOOR STADIUM</P>
 	</div>
-	<div class=g3><img src="images\03-03.jpg" alt="">
+	<div class='g3'><img src="images\03-03.jpg" alt="">
 		<P>TRANSPORATION</P>
 	</div>
-	<div class=g4><img src="images\03-04.jpg" alt="">
+	<div class='g4'><img src="images\03-04.jpg" alt="">
 		<P>KIDSROOM</P>
 	</div>
-	<div class=g5><img src="images\03-05.jpg" alt="">
+	<div class='g5'><img src="images\03-05.jpg" alt="">
 		<P>MEDITATION CLASSES</P>
 	</div>
-	<div class=g6><img src="images\03-06.jpg" alt="">
+	<div class='<span class=""></span>g6'><img src="images\03-06.jpg" alt="">
 		<P>KIDS PLAY GROUND</P>
 	</div>
 	</div>
-</div>
 <div id='ds'>
-<img src="images/ds.png" alt="">
+	<img src="images/ds.png" alt="">
+	<div class='exit'>
+		<a href="javascript:void(0)" onclick="fn()">
+			<img src="images/exit.jpg" alt="">
+		</a>
+	</div>
 </div>
 <!-- 随便改改内容 练习git使用 -->
 <div class="footer"><p>©2016 imooc.com京ICP备13046642号</p></div>
+<script src="js/index.js"></script>
 </body>
 </html>
 
