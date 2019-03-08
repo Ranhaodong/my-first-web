@@ -1,0 +1,188 @@
+$w:1530px;
+$b:#ddd;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.body{
+    .body-nav-right{
+        float: right;
+        width:40%;
+        li{
+            transition: 0.5s;
+            a{
+                font-size: 14px;
+                color: #666;            
+                text-decoration: none;
+                cursor: pointer;
+            }
+            width: 25%;
+            float: left;
+            height: 120px;
+            img{
+                display: block;
+                margin:10px 38px;
+                width: 50%;
+            }
+            span{
+                font-weight:700;                display: block;
+                width:100%;
+                text-align: center;
+            }
+        }
+        li:hover{
+            background: #444;
+            border-radius:5px;
+            span{
+                font-weight:700;                display: block;
+                width:100%;
+                text-align: center;
+                color: #ddd;
+            }
+        }
+    }
+    width: $w;
+    margin:0px auto;
+    padding: 5px 0;
+    background:$b;
+    height: 120px;
+    .body-nav{
+        width:12%;
+        height:120px;
+        float: left;
+        padding:5px;
+        li>a{
+            font-size: 14px;
+            color: #666;            
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+}
+.body-box{
+    background: $b;
+    width: $w;
+    height:235px;
+    margin:0 auto;
+    .box-title{
+        display: inline-block;
+        width:79%;
+    }
+    .right-title{
+        display: inline-block  ;
+        width: 19%;  
+    }
+    .box-f1{
+        width:80%;
+        height: 200px;
+        margin: 0;
+        li{
+            position: relative;
+            width: 24%;
+            height:190px;
+            margin:5px;
+            background: #f00;
+            float: left;
+            overflow: hidden;
+            a{
+                display: block;
+                width:100%;
+                height: 100%;
+                .mask{
+                    width:100%;
+                    height: 100%;
+                    background: rgba(0, 0, 0, 0.5);
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    display: none;
+                    z-index: 1;
+                    .title{
+                        margin:5px;
+                        color:#fff;
+                        height: 79%;
+                        overflow: hidden;
+                        -webkit-line-clamp:7;
+                        -webkit-box-orient:vertical;
+                        display: -webkit-box;
+                    }
+                    .bsum{
+                        color: #ddd;
+                        font-size: 16px;
+                        float:right;
+                        margin-right:5px 
+                    }
+                }
+                img{
+                    width: 306px;
+                    height:auto;
+                }
+            }
+            
+        }
+    }
+    .box-f1-right{
+        background: #ddd;
+        display: block;
+        float: right;
+        position: relative;
+        margin-right: 5px;
+        top:-195px;
+        width: 20%;
+        height:190px;
+        font-weight: 300;
+        font-family: "华文中宋";
+        h4{
+            background:#ddd;
+            padding:5px;
+        }
+        li{
+            width: 120px;
+            height: 31.6px;
+            background:#666;
+            color:#fff;
+            font-size: 20px;
+            transition:.5s;
+            padding: 5px;
+        }
+        li:hover{
+            background:rgb(182, 179, 179);
+            color:rgb(51, 51, 51);
+            font-size: 20px;
+        }
+        .box{
+            padding: 0;
+            width: 186px;
+            height: 190px;
+            position: absolute;
+            right: 0;
+            top:0px;
+            overflow: hidden;
+            .lbox{
+                width: 186px;
+                height: 190*6px;
+                margin-top: 0;
+                transition: .5s;
+                div{
+                    height: 190px;
+                    width: 186px;
+                    overflow: hidden;
+                }
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+                .d1{background: #f00}
+                .d2{background: rgb(0, 225, 255)}
+                .d3{background: rgb(255, 0, 255)}
+                .d4{background: rgb(229, 255, 0)}
+                .d5{background: rgb(0, 255, 64)}
+            }
+        }
+        .box:hover{
+            margin: 0;
+            padding: 0;
+        }
+    }    
+}

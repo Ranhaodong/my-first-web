@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #000; }
+
+#box {
+  width: 1730px;
+  height: 781px;
+  margin: 80px auto;
+  position: relative; }
+  #box #boxleft {
+    position: absolute;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    cursor: pointer; }
+    #box #boxleft .video {
+      width: 100%;
+      height: 100%; }
+    #box #boxleft #b1 {
+      position: absolute;
+      bottom: 100px;
+      left: 20px;
+      width: 64px;
+      height: 64px;
+      display: none;
+      background-image: url(../img/play.png);
+      transition: .5s; }
+    #box #boxleft #b1:focus {
+      outline: none; }
+    #box #boxleft #d1 {
+      background: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      height: 96%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: none; }
+    #box #boxleft #d2 {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -300px;
+      margin-top: -200px;
+      width: 600px;
+      height: 400px; }
+      #box #boxleft #d2 img {
+        width: 100%;
+        height: 100%; }
+  #box .box-right {
+    float: right;
+    width: 20%;
+    height: 100%;
+    background: #000;
+    color: #ddd;
+    overflow: hidden; }
+    #box .box-right .title {
+      font-size: 26px;
+      font-weight: 600;
+      margin-left: 10px; }
+    #box .box-right .bit {
+      margin: 5px;
+      color: #fff;
+      height: 8%;
+      overflow: hidden;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      display: -webkit-box; }
+    #box .box-right #select {
+      width: 100%;
+      background: #f00;
+      margin-top: 10px; }
+      #box .box-right #select ul {
+        list-style: none; }
+        #box .box-right #select ul li {
+          float: left;
+          width: 20%;
+          height: 50px; }
+          #box .box-right #select ul li a {
+            width: 100%;
+            height: 100%;
+            color: #fff;
+            display: inline-block;
+            text-align: center;
+            line-height: 50px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 600;
+            transition: .2s; }
+          #box .box-right #select ul li a:hover {
+            background: #fff;
+            width: 100%;
+            height: 100%;
+            color: #000;
+            display: inline-block;
+            text-align: center;
+            line-height: 50px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 600; }
+    #box .box-right .ntitle {
+      width: 97%;
+      float: left;
+      margin-left: 5px; }
+    #box .box-right #nlist {
+      width: 100%;
+      padding: 5px;
+      float: left;
+      overflow: hidden; }
+      #box .box-right #nlist .nbox {
+        width: 100%; }
+        #box .box-right #nlist .nbox .nitem {
+          width: 100%;
+          height: 100px;
+          margin-bottom: 10px; }
+          #box .box-right #nlist .nbox .nitem a {
+            color: #fff; }
+            #box .box-right #nlist .nbox .nitem a img {
+              width: 50%;
+              height: 100%;
+              display: inline-block; }
+            #box .box-right #nlist .nbox .nitem a p {
+              width: 48%;
+              float: right;
+              color: #fff;
+              height: 65%;
+              overflow: hidden;
+              -webkit-line-clamp: 3;
+              -webkit-box-orient: vertical;
+              display: -webkit-box; }
