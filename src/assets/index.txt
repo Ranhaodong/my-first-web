@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style lang="scss" scoped="" type="text/css"></style>
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1065107_aofyrq6f8bp.css">
+    <title>dream
+    </title>
+    <script src="src/assets/js/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="src/assets/css/banner.css">
+    <link rel="stylesheet" href="src/assets/css/body.css">
+</head>
+<style>
+    *{margin:0;padding:0}
+    body{
+        background-image:url(img/indexbg.png)
+    }
+    .top{
+        width: 100%;
+        height: 100px;
+        position:fixed;
+        top:0;
+        left:0;
+        z-index:999;
+    }
+</style>
+<body>
+<div id="app"></div>
+<iframe class="top" src="top.html" frameborder="0"></iframe>
+
+<script src="js/banner.js"></script>
+<div class="banner">
+    <div class="bannerbox">
+        <a href="src/assets/play.html" class='img1'>
+            <img src="src/assets/img/banner1.png" alt="img1">
+        </a>
+        <a href="src/assets/play.html" class='img2'>
+            <img src="src/assets/img/banner2.png" alt="img2">
+        </a>
+        <a href="src/assets/play.html" class='img3'>
+            <img src="src/assets/img/banner3.png" alt="img3">
+        </a>
+        <a href="src/assets/play.html" class='img4'>
+            <img src="src/assets/img/banner4.png" alt="img4">
+        </a>
+        <a href="src/assets/play.html" class='img1'>
+            <img src="src/assets/img/banner1.png" alt="img1">
+        </a>
+    </div>
+    <div class="btn_left">
+        <a href="#"></a>
+    </div>
+    <div class="btn_right">
+        <a href="#"></a>
+    </div>
+
+    <div class="ul1">
+        <ul class="circle">
+            <li>
+                <div class='dian'></div>
+            </li>
+            <li>
+                <div class='dian'></div>
+            </li>
+            <li>
+                <div class='dian'></div>
+            </li>
+            <li>
+                <div class='dian'></div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="body">
+    <ul class="body-nav">
+        <li>导航</li>
+        <li>导航1</li>
+        <li>导航2</li>
+        <li>导航3</li>
+        <li>导航4</li>
+    </ul>
+    <ul class="body-nav-right">
+        <li>
+            <a href="javascript:;">
+                <img src="src/assets/img/ku.png" alt="">
+                <span>梦林片库</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="src/assets/img/ph.png" alt="">
+                <span>热度排行</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="src/assets/img/gz.png" alt="">
+                <span>我的关注</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="src/assets/img/sh.png" alt="">
+                <span>画梦社区</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="body-box">
+    <h2 class="box-title">热播剧</h2>
+    <h3 class="right-title">猜你喜欢</h3>
+    <ul class="box-f1">
+        <li>
+            <a href="javascript:;">
+                <img src="src/assets/img/zf.jpg" alt="">
+                <div class="mask">
+                    <p class="title">盛家六姑娘明兰从小聪颖貌美，却遭遇嫡母不慈，姐妹难缠，父亲不重视，生母被害去世的困境。她藏起聪慧，掩埋锋芒，忍辱负重逆境成长，在万般打压之下依然自立自强，终历尽艰难为母报仇。在这一过程中，明兰结识了宁远侯府二公子顾廷烨。顾廷烨帮过明兰，也刻薄过明兰，他见过明兰软糯表皮下的聪慧锐利，也见过她刚强性格中的脆弱孤单，对她早已倾心。朝廷风云变幻，在顾廷烨的拥戴下，赵家旁支宗室子弟被立为太子，顾廷烨拿着勤王诏书，大破反贼，而后拥立新帝，成为新朝第一功臣，略施巧计娶了明兰为妻。明兰婚后管家业、整侯府、铲奸佞、除宵小，夫妻二人解除误会建立了深厚的感情，最终明兰与丈夫一同协助明君巩固政权，二人也收获了美满的人生</p>
+                    <p class="bsum">播放:246w</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="src/assets/img/fy.jpg" alt="">
+                <div class="mask">
+                    <p class="title">该剧讲述了出生底层的平凡少女扶摇，为解救同伴奋而下山踏上五洲历险征途，在此过程中意外结识长孙无极，并与其相知相爱并肩而立；两人坚守“虽千万人吾往矣”的信念，历经磨难披荆斩棘，最终成功对抗不公的命运。</p>
+                    <p class="bsum">播放:246w</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="src/assets/img/yxgl.jpg" alt="">
+                <div class="mask">
+                    <p class="title">乾隆六年，少女魏璎珞为寻求长姐死亡真相，入紫禁城为宫女。经调查，璎珞证实姐姐之死与荒唐王爷弘昼有关，立志要讨回公道。富察皇后娴于礼法，担心璎珞走上歧途，竭力给予她温暖与帮助。在皇后的悉心教导下，魏璎珞一步步成长为正直坚强的宫廷女官，并放下怨恨、认真生活。皇后不幸崩逝，令璎珞对乾隆误会重重，二人从互相敌视到最终彼此理解、互相扶持。璎珞凭勇往直前的勇气、机敏灵活的头脑、宽广博大的胸怀，化解宫廷上下的重重困难，最终成为襄助乾隆盛世的令贵妃。直到璎珞去世前，她才将当年富察皇后临终托付告知乾隆，即望她陪伴弘历身边，辅助他做一个有为明君，乾隆终知富察氏用心良苦。乾隆六十年，乾隆帝宣示魏璎珞之子嘉亲王永琰为皇太子，同时追封皇太子生母令懿皇贵妃为孝仪皇后，璎珞终于用自己的一生，实现了对富察皇后的承诺。</p>
+                    <p class="bsum">播放:246w</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="src/assets/img/ryz.jpg" alt="">
+                <div class="mask">
+                    <p class="title">公元1735年乾隆（霍建华饰）即位，与他少年相知的侧福晋如懿（周迅饰）也依礼进宫为妃。从此，二人在宫廷里演绎了一段从恩爱相知到迷失破灭的婚姻历程。新帝登基，如懿因与乾隆青梅竹马的情分成为娴妃，由此受到众人排挤，而太后（邬君梅饰)又与如懿家族有世仇，如懿危机四伏。此时，乾隆也同样面对太后掌权和老臣把持朝政的难题。权力更迭过程中，乾隆与如懿互相扶持，共同渡过难关，直到二人扫清障碍。乾隆经过多年努力也如愿将如懿推到皇后位置，与他共有天下。然而做了皇后的如懿却发现，乾隆已从少年夫君成长为成熟帝王，他的多疑善变以及帝王自私不断显露，两人间的情意信任渐渐破灭。但如懿依旧坚守美好回忆，恪守皇后职责，直到去世。</p>
+                    <p class="bsum">播放:246w</p>
+                </div>
+            </a>
+        </li>
+    </ul>
+    <ul class="box-f1-right">
+        <li class="item" data-i="0"><p>皓镧传</p></li>
+        <li class="item" data-i="1"><p>知否</p></li>
+        <li class="item" data-i="2"><p>逆流而上</p></li>
+        <li class="item" data-i="3"><p>孤独皇后</p></li>
+        <li class="item" data-i="4"><p>招摇</p></li>
+        <li class="item" data-i="5"><p>天衣无缝</p></li>
+        <li class="box">
+            <div class="lbox">
+                <div class="d1">
+                    <img src="src/assets/img/hyz-s.jpg" alt="">
+                </div>
+                <div class="d2">
+                    <img src="src/assets/img/zf-s.jpg" alt="">
+                </div>
+                <div class="d3">
+                    <img src="src/assets/img/nlrs-s.jpg" alt="">
+                </div>
+                <div class="d4">
+                    <img src="src/assets/img/gdhh-s.jpg" alt="">
+                </div>
+                <div class="d5">
+                    <img src="src/assets/img/zy-s.jpg" alt="">
+                </div>
+                <div class="d6">
+                    <img src="src/assets/img/tywf-s.jpg" alt="">
+                </div>
+            </div>
+        </li>
+    </ul>
+    
+    <!-- --------- -->
+    
+</div>
+
+<script>
+    $(function(){
+        var content = ["热播剧","知否知否","扶摇","延禧攻略","如懿传",
+        "电影","流浪地球","疯狂的外星人","飞驰人生","小猪佩奇过大年",
+        "日漫","关于我变成史莱姆这档事","多罗罗","刀剑神域Alicization",
+        "猪头少年不会梦到兔女郎",
+        "综艺","青春有你","演员的品格","声临其境","王牌对王牌",
+        "日剧","东京自助洗衣店","逃避可耻但有用","孤独的美食家","非自然死亡","三体"]
+
+        var content2 =[{
+            img:"src/assets/img/zf.jpg",
+            title:"盛家六姑娘明兰从小聪颖貌美，却遭遇嫡母不慈，姐妹难缠，父亲不重视，生母被害去世的困境。她藏起聪慧，掩埋锋芒，忍辱负重逆境成长，在万般打压之下依然自立自强，终历尽艰难为母报仇。在这一过程中，明兰结识了宁远侯府二公子顾廷烨。顾廷烨帮过明兰，也刻薄过明兰，他见过明兰软糯表皮下的聪慧锐利，也见过她刚强性格中的脆弱孤单，对她早已倾心。朝廷风云变幻，在顾廷烨的拥戴下，赵家旁支宗室子弟被立为太子，顾廷烨拿着勤王诏书，大破反贼，而后拥立新帝，成为新朝第一功臣，略施巧计娶了明兰为妻。明兰婚后管家业、整侯府、铲奸佞、除宵小，夫妻二人解除误会建立了深厚的感情，最终明兰与丈夫一同协助明君巩固政权，二人也收获了美满的人生",
+            play:"246w"},{
+
+            img:"src/assets/img/yxgl.jpg",
+            title:"该剧讲述了出生底层的平凡少女扶摇，为解救同伴奋而下山踏上五洲历险征途，在此过程中意外结识长孙无极，并与其相知相爱并肩而立；两人坚守“虽千万人吾往矣”的信念，历经磨难披荆斩棘，最终成功对抗不公的命运。",
+            play:"112w"},{
+
+            img:"src/assets/img/yxgl.jpg",
+            title:"乾隆六年，少女魏璎珞为寻求长姐死亡真相，入紫禁城为宫女。经调查，璎珞证实姐姐之死与荒唐王爷弘昼有关，立志要讨回公道。富察皇后娴于礼法，担心璎珞走上歧途，竭力给予她温暖与帮助。在皇后的悉心教导下，魏璎珞一步步成长为正直坚强的宫廷女官，并放下怨恨、认真生活。皇后不幸崩逝，令璎珞对乾隆误会重重，二人从互相敌视到最终彼此理解、互相扶持。璎珞凭勇往直前的勇气、机敏灵活的头脑、宽广博大的胸怀，化解宫廷上下的重重困难，最终成为襄助乾隆盛世的令贵妃。直到璎珞去世前，她才将当年富察皇后临终托付告知乾隆，即望她陪伴弘历身边，辅助他做一个有为明君，乾隆终知富察氏用心良苦。乾隆六十年，乾隆帝宣示魏璎珞之子嘉亲王永琰为皇太子，同时追封皇太子生母令懿皇贵妃为孝仪皇后，璎珞终于用自己的一生，实现了对富察皇后的承诺。",
+            play:"136w"},{
+
+            img:"src/assets/img/ryz.jpg",
+            title:"又与如懿家族有世仇，如懿危机四伏。此时，乾隆也同样面对太后掌权和老臣把持朝政的难题。权力更迭过程中，乾隆与如懿互相扶持，共同渡过难关，直到二人扫清障碍。乾隆经过多年努力也如愿将如懿推到皇后位置，与他共有天下。然而做了皇后的如懿却发现，乾隆已从少年夫君成长为成熟帝王，他的多疑善变以及帝王自私不断显露，两人间的情意信任渐渐破灭。但如懿依旧坚守美好回忆，恪守皇后职责，直到去世。",
+            play:"98w"}] 
+            
+        //动态生成导航栏添加内容为content数据
+        for(var i=0;i<4;i++){
+            $(".body").append($('.body-nav').eq(0).clone())  
+        }
+        $.map(content,function(cont,i){              
+            $(".body-nav").children().eq(i).html(`<a href="#">${cont}</a>`)
+         })
+        $(".body-nav>li:first-child").css("fontWeight","700")
+
+        $(".box-f1>li").mouseenter(function(){            
+            let n = event.target
+            n = $(n)
+            n.next().show();
+        })
+         
+        //热播剧图片遮罩层显示与隐藏
+        $(".box-f1>li").mouseleave(function(){  
+            event.stopPropagation()
+            let n = event.target
+            n = $(n)
+            n.parents(".mask").hide();
+            n.hasClass("mask") && n.hide()            
+        })
+        
+        //热门列表滚动效果
+        $(".box-f1-right>.item").mouseenter(function(){            
+            var i = $(this).attr("data-i")
+            $(".box-f1-right>.box>.lbox").css("marginTop",-i*190) 
+        })        
+    })
+</script>
+</body>
+</html>

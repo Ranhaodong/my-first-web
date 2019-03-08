@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/play.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <title>Document</title>
+    <style>
+    .top{
+        width: 100%;
+        height: 100px;
+        position:fixed;
+        top:0;
+        left:0;
+        z-index:999;
+    }
+    </style>
+</head>
+<body>
+    <iframe class="top" src="top.html" frameborder="0"></iframe>
+    <div id="box">
+        <div id="boxleft">
+            <video controls id="v2" src="img/x.mp4" class="video" ></video>
+            <div id="d1"></div>
+            <div id="d2">
+                <img src="img/1.bmp"></img>
+            </div>
+            <span id="b1"></span>
+        </div>
+        <div class="box-right">
+            <h3 class="title">知否</h2>
+            <p class="bit">盛家六姑娘明兰从小聪颖貌美，却遭遇嫡母不慈，姐妹难缠，父亲不重视，生母被害去世的困境。她藏起聪慧，掩埋锋芒，忍辱负重逆境成长，在万般打压之下依然自立自强，终历尽艰难为母报仇。在这一过程中，明兰结识了宁远侯府二公子顾廷烨。顾廷烨帮过明兰，也刻薄过明兰，他见过明兰软糯表皮下的聪慧锐利，也见过她刚强性格中的脆弱孤单，对她早已倾心。朝廷风云变幻，在顾廷烨的拥戴下，赵家旁支宗室子弟被立为太子，顾廷烨拿着勤王诏书，大破反贼，而后拥立新帝，成为新朝第一功臣，略施巧计娶了明兰为妻。明兰婚后管家业、整侯府、铲奸佞、除宵小，夫妻二人解除误会建立了深厚的感情，最终明兰与丈夫一同协助明君巩固政权，二人也收获了美满的人生</p>
+            <div id="select">
+                <ul class="sbox">
+                    <li class="sitem"><a href="javascript:;">1</a></li>                   
+                </ul>
+            </div>
+            <h3 class="ntitle">猜你喜欢</h4>
+            <div id="nlist">
+                <ul class="nbox">      
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        (function(){
+            var content2 =[{
+            img:"img/zf.jpg",
+            title:"盛家六姑娘明兰从小聪颖貌美，却遭遇嫡母不慈，姐妹难缠，父亲不重视，生母被害去世的困境。她藏起聪慧，掩埋锋芒，忍辱负重逆境成长，在万般打压之下依然自立自强，终历尽艰难为母报仇。在这一过程中，明兰结识了宁远侯府二公子顾廷烨。顾廷烨帮过明兰，也刻薄过明兰，他见过明兰软糯表皮下的聪慧锐利，也见过她刚强性格中的脆弱孤单，对她早已倾心。朝廷风云变幻，在顾廷烨的拥戴下，赵家旁支宗室子弟被立为太子，顾廷烨拿着勤王诏书，大破反贼，而后拥立新帝，成为新朝第一功臣，略施巧计娶了明兰为妻。明兰婚后管家业、整侯府、铲奸佞、除宵小，夫妻二人解除误会建立了深厚的感情，最终明兰与丈夫一同协助明君巩固政权，二人也收获了美满的人生",
+            play:"246w"},{
+
+            img:"img/fy.jpg",
+            title:"该剧讲述了出生底层的平凡少女扶摇，为解救同伴奋而下山踏上五洲历险征途，在此过程中意外结识长孙无极，并与其相知相爱并肩而立；两人坚守“虽千万人吾往矣”的信念，历经磨难披荆斩棘，最终成功对抗不公的命运。",
+            play:"112w"},{
+
+            img:"img/yxgl.jpg",
+            title:"乾隆六年，少女魏璎珞为寻求长姐死亡真相，入紫禁城为宫女。经调查，璎珞证实姐姐之死与荒唐王爷弘昼有关，立志要讨回公道。富察皇后娴于礼法，担心璎珞走上歧途，竭力给予她温暖与帮助。在皇后的悉心教导下，魏璎珞一步步成长为正直坚强的宫廷女官，并放下怨恨、认真生活。皇后不幸崩逝，令璎珞对乾隆误会重重，二人从互相敌视到最终彼此理解、互相扶持。璎珞凭勇往直前的勇气、机敏灵活的头脑、宽广博大的胸怀，化解宫廷上下的重重困难，最终成为襄助乾隆盛世的令贵妃。直到璎珞去世前，她才将当年富察皇后临终托付告知乾隆，即望她陪伴弘历身边，辅助他做一个有为明君，乾隆终知富察氏用心良苦。乾隆六十年，乾隆帝宣示魏璎珞之子嘉亲王永琰为皇太子，同时追封皇太子生母令懿皇贵妃为孝仪皇后，璎珞终于用自己的一生，实现了对富察皇后的承诺。",
+            play:"136w"},{
+
+            img:"img/ryz.jpg",
+            title:"又与如懿家族有世仇，如懿危机四伏。此时，乾隆也同样面对太后掌权和老臣把持朝政的难题。权力更迭过程中，乾隆与如懿互相扶持，共同渡过难关，直到二人扫清障碍。乾隆经过多年努力也如愿将如懿推到皇后位置，与他共有天下。然而做了皇后的如懿却发现，乾隆已从少年夫君成长为成熟帝王，他的多疑善变以及帝王自私不断显露，两人间的情意信任渐渐破灭。但如懿依旧坚守美好回忆，恪守皇后职责，直到去世。",
+            play:"98w"},{
+
+            img:"img/ryz.jpg",
+            title:"又与如懿家族有世仇，如懿危机四伏。此时，乾隆也同样面对太后掌权和老臣把持朝政的难题。权力更迭过程中，乾隆与如懿互相扶持，共同渡过难关，直到二人扫清障碍。乾隆经过多年努力也如愿将如懿推到皇后位置，与他共有天下。然而做了皇后的如懿却发现，乾隆已从少年夫君成长为成熟帝王，他的多疑善变以及帝王自私不断显露，两人间的情意信任渐渐破灭。但如懿依旧坚守美好回忆，恪守皇后职责，直到去世。",
+            play:"98w"}]
+            
+            $.ajax({ url: "http://jsonplaceholder.typicode.com/posts", context: document.body, success: function(){
+        
+      }});
+
+            v2.volume = 0.5;
+            v2.playbackRate = 2;
+            var selectsum = 12;
+
+            for(var i=2;i<selectsum+1;i++){
+            $(".sbox").append($('.sitem').eq(0).clone().html(`<a href='javascript:;'>${i}</a>`))  
+            }//生成选集 集数为selectsum
+
+            for(var i=0;i<content2.length;i++){
+                var li = $(`<li class="nitem"><a href="javascript:;"><img src=${content2[i].img} alt=""><p>${content2[i].title}</p></a></li>`)
+                $(".nbox").append(li)
+            
+            }
+
+            boxleft.onclick = function(){
+                if(v2.paused){
+                    v2.play();                                
+                    d2.style.display = "none"; 
+                }else{
+                    v2.pause();
+                    d2.style.display = "block"
+                }           
+                b1.style.backgroundImage = v2.paused == false ?
+                "url(img/pause.png)" :
+                "url(img/play.png)";
+            }
+            box.onmouseenter = function(){
+                b1.style.display = "block"             
+                d1.style.display = "block"             
+            }
+            box.onmouseleave = function(){
+                v2.paused == false && (b1.style.display = "none")             
+                v2.paused == false && (d1.style.display = "none")           
+            }
+        })()
+    </script>
+</body>
+</html>
